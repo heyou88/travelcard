@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: "inter","Source Sans Pro", "Arial", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: inter, sans-serif;
+}
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  background-color: #F55A5A;
+  height:55px;
+  margin: 0px;  
+}
+.nav-text{
+    color: white;
+    font-weight: 500;
+    font: inter;
+}
+
+.nav-logo{
+    width: 24px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.card{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    
+}
+.card-img{
+width: 125px;
+height: 168px;
+margin: 40px;
+border-radius: 5px;
+}
+
+.link{
+    margin-left: 10px;
+    color: #918E9B;
+}
+
+.card-stats{
+   display: flex;
+   flex-direction: row; 
+   align-items: center;
+}
+ .bold{
+     font-weight: bold;
+ }
+
+.location-mark{
+    height:14px;
+    margin-right: 5px;
+}
+
+.card-text{
+    font-size: 12px;
+}
